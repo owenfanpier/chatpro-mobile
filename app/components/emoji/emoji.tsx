@@ -23,7 +23,7 @@ import {isUnicodeEmoji} from '@utils/emoji/helpers';
 import type {EmojiProps} from '@typings/components/emoji';
 import type {WithDatabaseArgs} from '@typings/database/database';
 
-const assetImages = new Map([['mattermost.png', require('@assets/images/emojis/mattermost.png')]]);
+const assetImages = new Map([['chatpro.png', require('@assets/images/emojis/chatpro.png')]]);
 
 const Emoji = (props: EmojiProps) => {
     const {

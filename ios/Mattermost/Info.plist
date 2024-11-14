@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>AppGroupIdentifier</key>
-	<string>group.com.mattermost.rnbeta</string>
+	<string>group.com.chatpro.iosapp</string>
 	<key>BundleEntryFilename</key>
 	<string>index.js</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Mattermost Beta</string>
+	<string>ChatPro Beta</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.mattermost.rnbeta</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -28,7 +28,7 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string>com.mattermost</string>
+			<string>com.chatpro</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>mattermost</string>
@@ -66,7 +66,7 @@
 	<key>NSFaceIDUsageDescription</key>
 	<string>Enabling access to your Face ID means we can restrict unauthorized users from accessing $(PRODUCT_NAME) on your device.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Enabling access to your device's microphones means you can capture audio for calls or videos to share in $(PRODUCT_NAME).</string>
+	<string>Enabling access to your device&apos;s microphones means you can capture audio for calls or videos to share in $(PRODUCT_NAME).</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Enabling write access to your photo library means you can save downloaded photos and videos from $(PRODUCT_NAME) to your device.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
